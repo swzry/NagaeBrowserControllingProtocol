@@ -1,0 +1,1 @@
+// ZRY Generic Docs Template For Typst.
