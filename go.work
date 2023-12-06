@@ -1,0 +1,4 @@
+go 1.20
+
+use server_v1
+use pkgtest/test-server-v1

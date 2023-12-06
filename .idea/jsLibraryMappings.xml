@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <excludedPredefinedLibrary name="来自 NagaeBrowserControllingProtocol\pkgtest\nbcp-test-frontend.old2\package.json 的依赖项" />
+    <excludedPredefinedLibrary name="来自 NagaeBrowserControllingProtocol\pkgtest\nbcp-test-frontend.old\package.json 的依赖项" />
+  </component>
+</project>
