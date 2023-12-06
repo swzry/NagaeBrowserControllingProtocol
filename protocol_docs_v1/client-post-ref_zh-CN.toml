@@ -1,0 +1,20 @@
+[_meta]
+protocol_major_ver = 1
+protocol_minor_ver = 1
+
+[webview2_core_loaded]
+desc="窗口内的webview2控件core部分加载完成"
+args = [
+    ["name", "string", "窗口名称"],
+]
+
+[window_closed]
+desc="窗口关闭"
+args = [
+    ["name", "string", "窗口名称"],
+]
+
+[all_window_closed]
+desc="所有窗口均已经关闭，一般用来结束会话"
+args = [
+]

@@ -1,0 +1,50 @@
+[_meta]
+protocol_major_ver = 1
+protocol_minor_ver = 1
+
+[new_window]
+desc="创建新窗口"
+args = [
+    ["name", "string", "窗口名称"],
+    ["title", "string", "窗口标题"],
+    ["url", "string", "浏览器初始URL"],
+    ["width", "int", "窗口宽度"],
+    ["height", "int", "窗口高度"],
+    ["hide_frame", "bool", "隐藏窗口边框（标题栏）"],
+    ["disable_maximize_btn", "bool", "禁用最大化按钮"],
+    ["disable_minimize_btn", "bool", "禁用最小化按钮"],
+    ["disable_close_btn", "bool", "禁用关闭按钮"],
+    ["maximize_on_show", "bool", "窗口创建后以最大化显示"],
+    ["no_resizable", "bool", "窗口大小不可改变"],
+]
+
+[close_window]
+desc="关闭指定窗口"
+args = [
+    ["name", "string", "窗口名称"],
+]
+
+[open_dev_tool]
+desc = "打开开发者工具"
+args = [
+    ["name", "string", "窗口名称"],
+]
+
+[toggle_maximize]
+desc = "最大化/还原窗口"
+args = [
+    ["name", "string", "窗口名称"],
+]
+
+[minimize]
+desc = "最小化窗口"
+args = [
+    ["name", "string", "窗口名称"],
+]
+
+[set_titlebar_display]
+desc = "设置标题栏显示"
+args = [
+    ["name", "string", "窗口名称"],
+    ["value", "bool", "是否显示标题栏"],
+]
