@@ -1,0 +1,12 @@
+{
+  "name": "nbcp-web-comm",
+  "version": "0.1.0",
+  "description": "NBCP Web Side Communication Client",
+  "main": "index.js",
+  "author": "zry <admin@z-touhou.org>",
+  "license": "MIT",
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
